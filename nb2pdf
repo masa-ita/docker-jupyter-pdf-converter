@@ -1,2 +1,2 @@
 #! /bin/bash
-docker run --rm -v $PWD:/home/basicuser jupyter_pdf:alpine jupyter nbconvert --to pdf "$@"
+docker run --rm -v $PWD:/home/basicuser jupyter_pdf jupyter nbconvert --to pdf "$@"
